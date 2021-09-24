@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import "./styles.css";
+import RenderPropsComp from "./RenderPropsComp";
 
 export default function App(props) {
   return (
@@ -47,6 +48,7 @@ const RootApp = () => (
   <>
     <AppWithApiPosts />
     <AppWithApiComments />
+    <RenderPropsComp />
   </>
 );
 const rootElement = document.getElementById("root");
